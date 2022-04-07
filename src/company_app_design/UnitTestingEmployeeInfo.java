@@ -8,5 +8,8 @@ public class UnitTestingEmployeeInfo {
 
     public static void main(String[] args) {
 
+            EmployeeInfo siheen= new EmployeeInfo(73159);
+
+
     }
 }
