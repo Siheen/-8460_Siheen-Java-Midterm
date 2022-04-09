@@ -1,50 +1,87 @@
-***ANSWER ALL OF THE QUESTIONS BELOW***
+***ANSWER ALL THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer: A programming language is a computer language that is used by programmers to communicate with computers.
+        It is a set of instructions written in any specific language (Java, Python)  that tells computers what to do
+        to perform specific tasks.
 
-What is a JDK composed of? Define each components?
-Answer:
+What is a JDK composed of? Define each component?
+Answer: The Java Development Kit, contains JRE (Java Runtime Environment) and several development tools,
+        mainly interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator.
+        ~ The JRE software builds a runtime environment in which Java programs can be executed.
+          The JRE is the on-disk system that takes your Java code, combines it with the needed libraries, and starts the JVM
+         to execute it. The JRE contains libraries and software needed by your Java programs to run.
+        ~ The archiver used is jar and the documentation used for is javadoc.
+        ~ The javac is a compiler in which it converts source code to bytecode, which is machine-readable.
+        ~ The interpreter basically interprets the language in which the computer will understand and run the tasks.
+
+
 
 What is an IDE?
-Answer:
+Answer: Integrated Development Environment. It can write code, debu
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer: IntelliJ, Eclipse and Netbeans
 
 Explain the entire java life cycle.
-Answer:
+Answer:  How I understand is with this flow,
+
+         code/text ---> Source class files-------->Java Compiler ---> .class converts to byteCode which is machine-readable--->
+                    (it's the class,any class
+                     will have .java)
+             class loader----> bytecode verifier--->interpreter
+                              (runtime exception)
+             JVM(part of JRE, physically doesn't exist, it provides runtime env't to drive the java code or application)
+                            -----> shows up in the host machine.
+
+      ~
 
 What is a class?
-Answer:
+Answer: A class is blueprint to create an object. It consists of variables and methods(aks Instance members).
+        ~ class has its own behavior and state/attributes.
 
 What is an object?
-Answer:
+Answer: Object is an instance of a class. Instance, or when we mean create of an instance, it means create an object.
 
 What is the entry point of a Java project?
-Answer:
+Answer: the main method.
 
 Why is the main() method static?
-Answer:
+Answer:  because we need a fixed place in memory for java to say this is out entry point for the program.
 
 Which class is the superclass of all classes?
-Answer:
+Answer: java.lang.object / the object class
 
 What is difference between path and classpath variables?
-Answer:
+Answer: path looks for executable files whereas, classpath loads and locates .class-files.
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer: An Interface is 100% abstract, but  Abstract class may or may not contain abstract methods, however, if there is
+        an abstract method within a class, then the class MUST be abstract.
+
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer: We can't because they don't or can't have constructors.
+        While we can't instantiate an abstract class, we can use the abstract class to define the data type of the reference
+        and instantiate a child of the abstract class.
 
 What is Access Modifier?
-Answer:
+Answer: specifies the accessibility/scope of a field, method, constructor or class.
+        public ---- the scope is global
+        protected-- the scope is limited to that package.
 
 What is OOP? Define each OOP concept.
-Answer:
-
+Answer: Object-Oriented programming (OOP) refers to languages that uses objects in programming. It relies on the concept
+        of classes and objects.It is used to structure a software program into simple, reusable pieces of code blueprints
+        (classes), which are used to create individual instances of objects.
+        ~ Abstraction, Inheritance, Encapsulation & Polymorphism.
+    Abstraction~ abstraction is the process of hiding certain details and showing only essential information to the user.
+                 Abstraction is hiding method implementation. You create an abstract method by using the keyboard abstract,
+                 but you do not implement the body. The way you implement the body is by using a child class.
+                 Abstract method is meant to be overridden by child class.
+    Encapsulation~ is data hiding, when we don't want to allow the user/other people to change the state/variable of class.
+                   in other words, its data hiding and protecting a variable from assigning inapproprate value.The value of the variable
+                   can be accessed through
 What is Java Package and which package is imported by default?
 Answer:
 
@@ -121,10 +158,14 @@ What is Serialization and Deserialization?
 Answer:
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer:-while loop means, while a condition is true, ONLY when the condition is true continue looping,
+        if it is false, it doesn’t execute at all.
+       -Do-While loop, executes the loop first, ALWAYS, and then check the condition to see if it should continue looping,
+        at least it will loop one time
+
 
 What is Enum?
-Answer:
+Answer: means Enumeration. It is a list of constants. Enums enables for a variable to be set of predefined constant.
 
 What is Iterator?
 Answer:
