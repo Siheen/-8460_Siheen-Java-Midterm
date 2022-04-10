@@ -28,8 +28,8 @@ What is a Stack (referring to data structures)?
 Answer:
 
 What is FIFO and LIFO?
-Answer:
-
+Answer: first in first out
+        last in first out
 Explain Big O Notation?
 Answer:
 
