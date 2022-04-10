@@ -1,71 +1,100 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer: provides a way of organizing, managing, and storing data efficiently.
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer: Searching, Sorting, Updation, Deletion, Insertion
 
 When would we use data structures in the real world?
-Answer:
+Answer: To implement back functionality in the internet browser.
+        To store the possible moves in a chess game.
+        To store a set of fixed keywords which are referenced very frequently.
+        To store the customer order information in a drive-in burger place.
 
 What is an Array?
-Answer:
+Answer: Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer: Array is a fixed length data structure whereas ArrayList is a variable length collection class.
+        We cannot change length of array once created in Java but ArrayList can be changed.
 
 What is a LinkedList?
-Answer:
+Answer: linked list class is an ordered collection that contains many objects of the same type.
 
 How is an Array different from LinkedList?
-Answer:
+Answer: ArrayList internally uses a dynamic array to store its elements. LinkedList uses Doubly Linked List to store its elements.
+       ArrayList is slow as array manipulation is slower. LinkedList is faster being node based as not much bit shifting required.
 
 What is a Queue?
-Answer:
+Answer: A Queue is also a linear data structure in which the elements are arranged based on FIFO rule.
+        It is like the passengers standing in a queue to board a bus.
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer: A stack is a linear data structure, "linear" meaning the elements are placed one after the other. An element can be accessed
+        only after accessing the previous elements.
 
 What is FIFO and LIFO?
-Answer: first in first out
-        last in first out
+Answer: first in first out(FIFO)
+        last in first out (LIFO)
 Explain Big O Notation?
-Answer:
+Answer: Big-O is a standard mathematical notation that shows how efficient an algorithm is in the worst-case scenario relative
+        to its input size. To measure the efficiency of an algorithm, we need to consider two things:
+        Time Complexity: How much time does it take to run completely?
+        Space Complexity: How much extra space does it require in the process?
 
 What is the best case to search an element from an array?
-Answer:
+Answer: The best case of the unsorted array is O(n).
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: worst-case time complexity is O(log N). means that as the number of values in a dataset increases, the performance
+time of the algorithm increases as a function of the base-2 logarithm of the number of values.
 
 Describe what a tree data structure is?
-Answer:
-
+Answer: Trees a non-linear data structure. They don’t store data in a linear way. They organize data hierarchically.
+        A tree is a collection of entities called nodes. Nodes are connected by edges. Each node contains a value or data.
 Describe what a graph data structure is?
-Answer:
+Answer: A Graph is a non-linear data structure consisting of nodes and edges.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: HashMap and Hashtable both are used to store data in key and value form.
+        Both are using hashing technique to store unique keys. main difference is that,
+        HashMap is non synchronized. It is not-thread safe and can't be shared between many threads without proper synchronization
+        code.Hashtable is synchronized. It is thread-safe and can be shared with many threads.
+        HashMap allows one null key and multiple null values.Hashtable doesn't allow any null key or value.
+        HashMap is a new class introduced in JDK 1.2.Hashtable is a legacy class.
+        HashMap is fast,Hashtable is slow.
+
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer: It uses a technique called Hashing. It implements the map interface. It stores the data in the pair of Key and Value.
+        HashMap contains an array of the nodes, and the node is represented as a class. It uses an array and
+        LinkedList data structure internally for storing Key and Value
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer: ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, that is backed by an array with an
+        invalid index. This means that the index is either less than zero or greater than or equal to the size of the array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: 1. Manually
+        2. Arrays.copyOf()
+        3. System.arraycopy()
+        4. Object.clone()
 
 What is DFS and BFS?
-Answer:
+Answer: BFS-Breadth First Search. Uses queue data structure for finding the shortest path
+        DFS-Depth First Search. uses Stack data structure.
 
 What is Recursion?
-Answer:
+Answer: Recursion in java is a process in which a method calls itself continuously.
+        A method in java that calls itself is called recursive method.
 
 What are linear and non-linear data Structures?
-Answer:
-
+Answer: Data structure where data elements are arranged sequentially or linearly where each
+        and every element is attached to its previous and next adjacent is called a linear data structure.
+        such as array, stack, queue, linked list
+       ~Data structures where data elements are not arranged sequentially or linearly are called non-linear data structures.
+        trees and graph.
 
 Outline different sorting algorithms and their time complexities:
 
